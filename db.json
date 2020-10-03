@@ -1,0 +1,146 @@
+{
+  "best-product": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "sate ayam",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "nasi goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "nasi rames",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "sate ayam",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "nasi goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "nasi rames",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "kentang goreng",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Bakso",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "bakso.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Pangsit",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "pangsit.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Nasi ayam geprek",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-geprek.jpg"
+    }
+  ],
+  "keranjang": [],
+  "pesanan": [
+    {
+      "nama": "manin",
+      "noMeja": "2",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "sate ayam",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "jaka",
+      "noMeja": "3",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "3",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "nasi goreng",
+            "harga": 15000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "mul",
+      "noMeja": "4",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "4",
+          "products": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Pangsit",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "pangsit.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

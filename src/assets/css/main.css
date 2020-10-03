@@ -1,0 +1,30 @@
+.router-link-exact-active {
+    font-weight: bold;
+    
+}
+
+.cart-product {
+    border-radius: 15px;
+}
+.card-img-top{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.footer {
+    color: white;
+    background-color: green;
+}
+
+.breadcrumb {
+background-color: greenyellow;
+padding: 2;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: purple;
+}
+
+.img-fluid {
+    border-radius: 15px;
+}
